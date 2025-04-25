@@ -19,3 +19,8 @@
 10. echo 'PATH="$PATH:$HOME/go/bin"' >> $HOME/.bashrc && source $HOME/.bashrc
 
 11. python3 scan.py
+
+
+
+
+pkg update -y && pkg upgrade -y && pkg install python3 -y && pkg install vim -y && pkg install golang -y && pkg install git -y && git clone https://github.com/Hosthunter-oceanhenter/Subscan-by-hunter && cd subdomain && pip install requests loguru multithreading bugscanner && pip install -r requirements.txt && echo 'PATH="$PATH:$HOME/go/bin"' >> $HOME/.bashrc && source $HOME/.bashrc && python3 scan.py
